@@ -8,5 +8,6 @@ namespace Model
 {
     public class diligence
     {
+        public int Id { get; set; }//1
     }
 }
