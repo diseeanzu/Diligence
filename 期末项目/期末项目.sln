@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diligence", "Diligence_1\Diligence.csproj", "{205F1C35-C451-45C5-AAFA-B554A389FA94}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiligenceDAO", "DiligenceDAO\DiligenceDAO.csproj", "{A67B544E-7BDE-4F86-9F4D-FD6C13205F56}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{83576740-999C-4A7F-9A8B-FF44DA61BC41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test1", "Test1\Test1.csproj", "{7BC6257D-A54E-41ED-9E1D-E982FFE1F870}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{83576740-999C-4A7F-9A8B-FF44DA61BC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83576740-999C-4A7F-9A8B-FF44DA61BC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83576740-999C-4A7F-9A8B-FF44DA61BC41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BC6257D-A54E-41ED-9E1D-E982FFE1F870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC6257D-A54E-41ED-9E1D-E982FFE1F870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC6257D-A54E-41ED-9E1D-E982FFE1F870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC6257D-A54E-41ED-9E1D-E982FFE1F870}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FEF64408-5221-4675-831D-D9A4732891B7}
 	EndGlobalSection
 EndGlobal
