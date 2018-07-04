@@ -8,5 +8,7 @@ namespace Model
 {
     public class Class
     {
+        public int classId { get; set; }//班级Id
+        public string className { get; set; }//班级名称
     }
 }
