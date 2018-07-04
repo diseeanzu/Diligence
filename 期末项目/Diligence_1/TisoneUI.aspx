@@ -6,46 +6,51 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <style>
-        .Z 
-        {
-            background-clip:padding-box;
-            background-color:aqua;
-            border-radius:6px 6px 6px 6px;
-            height:auto;
-        }
-        .A 
-        { 
-            width:600px;
-            height:80px;
-            background-color:antiquewhite;
-            border-radius:16px 16px 16px 16px;
-            margin:0px auto;
-            
-        }
-        .B 
-        {
-         font-size:30px;
-         font-family:'Microsoft PhagsPa';
-         color:blueviolet;
-          letter-spacing: 0;
-          text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
-          position:absolute;
-          margin-top:12px;
-          margin-left:160px;
-          
-        }
-            </style>
+    <link  rel="stylesheet" type="text/css" href="CSS/Test1.css"/>
 </head>
 <body>
     <form id="form1" runat="server">
         <div class="Z">
         <div class="A">
-              <div class="B">
+     
+        </div>
+               <div class="B">
                    Welcome*To*Sun*Jin
               </div>
-        </div>
+           
+            <div class="C">
+                <input id="txtBox3"  type="text" placeholder="输入正确的验证码"/>
+                <img alt="" src="yzm.aspx" id="img1"/>
+                <input id="txtBox4" type="button"   value="Rec"/>
+                <input id="txtBox5" type="button"   value="Lop"/>
+                <asp:TextBox runat="server"  ID="txtBox1" Width="300px" Height="30px" placeholder="请输入您的账号\电子邮箱"></asp:TextBox>
+                <asp:TextBox runat="server"  ID="txtBox2" Width="300px" Height="30px" placeholder="请输入您的密码" TextMode="Password"></asp:TextBox>
+                 
+                <asp:Label ID="Label1" runat="server" Text="显示密码" ></asp:Label>
+            </div>
+          
+                
             </div>
     </form>
+    <script src="js/jquery-3.3.1.js"></script>
+      <script type="text/javascript">
+        var i = 0;
+          $('#Label1').click(function () {
+             
+            i++;
+            if (i % 2 == 0) {
+                
+                $('#txtBox2').attr("type", 'text');
+            }
+            else {
+              
+               $('#txtBox2').attr("type", 'password');
+
+
+
+            }
+          })
+
+    </script>
 </body>
 </html>

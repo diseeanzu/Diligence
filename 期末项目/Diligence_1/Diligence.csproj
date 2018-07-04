@@ -67,7 +67,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\Test1.css" />
+    <Content Include="image\preview.jpg" />
+    <Content Include="image\timg[1].jpg" />
     <Content Include="packages.config" />
+    <Content Include="yzm.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -88,6 +92,13 @@
     <Compile Include="TisoneUI.aspx.designer.cs">
       <DependentUpon>TisoneUI.aspx</DependentUpon>
     </Compile>
+    <Compile Include="yzm.aspx.cs">
+      <DependentUpon>yzm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="yzm.aspx.designer.cs">
+      <DependentUpon>yzm.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DiligenceBLL\DiligenceBLL.csproj">
@@ -98,6 +109,9 @@
       <Project>{83576740-999c-4a7f-9a8b-ff44da61bc41}</Project>
       <Name>Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="js\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
