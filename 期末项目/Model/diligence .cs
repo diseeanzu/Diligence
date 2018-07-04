@@ -9,7 +9,7 @@ namespace Model
     public class diligence
     {
         public int Id { get; set; }//1
-        public string Name { get;}//2
+        public string Name { get; set; }//2
         
     }
 }
