@@ -10,6 +10,7 @@ namespace Model
     {
         public int Id { get; set; }//1
         public string Name { get; set; }//2
+        public string Sex { get; set; }//ddfghfg
         
     }
 }
