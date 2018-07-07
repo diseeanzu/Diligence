@@ -1,0 +1,97 @@
+﻿body {
+    /*background: url('../image/4.jpg') no-repeat;
+    background-size: 1580px 780px;*/
+    overflow-x:hidden;
+   
+}
+.head {
+    width: 1580px;
+    height: 80px;
+    background-color:black;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: -20px;
+    font-family: STHupo;
+    font-size:35px;
+    
+}
+#Diligence 
+{
+    position:relative;
+    margin-top:16px;
+    margin-left:65px;
+    color:aliceblue;
+    
+}
+.body {
+    width: 1580px;
+    height: 780px;
+    /*background: url('../image/4.jpg') no-repeat;
+    background-size: 1580px 780px;*/
+    position: absolute;
+    margin-top: 65px;
+    margin-left: -30px;
+    
+}
+#left 
+{
+     height:780px;
+     width:300px;
+     background-color:aliceblue;
+     opacity:0.9;
+     position:absolute;
+     margin-top:3px;
+}
+#right 
+{
+   background-color:antiquewhite;
+   position:absolute;
+   margin-left:300px;
+   margin-top:3px;
+   width:1280px;
+   height:780px;
+   z-index:50;
+   
+
+}
+.Weibu {
+    width: 1580px;
+    height: 80px;
+    background-color:aqua;
+    position: absolute;
+    margin-top: 848px;
+    margin-left: -20px;
+    /*font-family: STHupo;
+    font-size: 35px;*/
+}
+#UI {
+    position:absolute;
+    margin-left:300px;
+    margin-top:27px;
+    font-size:25px;
+    color:blueviolet;
+        
+
+}
+#Label1 {
+     position:absolute;
+     margin-top:30px;
+     margin-left:60px;
+     left:20px;
+     font-size:16px;
+     font-family:DengXian;
+     color:brown;
+}
+#Label2 {
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 60px;
+    left: 20px;
+    font-size: 16px;
+    font-family: DengXian;
+    color: brown;
+}
+#ASER {
+     width:300px;
+     height:60px;
+}

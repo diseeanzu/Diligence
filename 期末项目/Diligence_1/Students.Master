@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Students.master.cs" Inherits="Diligence_1.Students" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="CSS/Students.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+     <div class="head">
+          <div id="Diligence">Diligence</div>
+     </div>
+     <div class="body">
+             
+        <div id="right">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                
+            </asp:ContentPlaceHolder>
+        </div>
+         <div id="left">
+              <asp:Label ID="Label1" runat="server" Text="查询" Width="200px"></asp:Label>
+           
+             <asp:Label ID="Label2" runat="server" Text="添加" Width="200px"></asp:Label>
+         </div>
+      </div>
+        <div class="Weibu"> 
+             <div  id="UI">新浪微博&nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp 官方微信 &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp 官方贴吧 &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp 询问我们 &nbsp&nbsp&nbsp|</div>
+        </div>
+       
+    </form>
+</body>
+</html>
