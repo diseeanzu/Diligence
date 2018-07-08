@@ -4,7 +4,9 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="bodyu">
-         <asp:Button  runat="server" ID="ASER" Text="添加" BorderWidth="18px" BorderColor="#CC33FF" BackColor="#66FFFF" />
+         <asp:Button  runat="server" ID="ASER" Text="添加" BorderWidth="1px" Width="300px" BorderColor="#CC33FF" BackColor="#66FFFF" />
+        <asp:GridView ID="GridView1" runat="server"></asp:GridView>
     </div>
-    <asp:GridView ID="GridView1" runat="server"></asp:GridView>
+  
+
 </asp:Content>
